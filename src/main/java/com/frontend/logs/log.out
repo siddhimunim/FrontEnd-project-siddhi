@@ -1,0 +1,3 @@
+2023-01-20 20:45:52 INFO  HomePage :32 - Click on cookies[[ChromeDriver: chrome on WINDOWS (80e102c6df5f5845453f5baf0b73e832)] -> xpath: //label[contains(text(),'Accept')]]
+2023-01-20 20:45:53 INFO  HomePage :37 - Click on Online slots[[ChromeDriver: chrome on WINDOWS (80e102c6df5f5845453f5baf0b73e832)] -> xpath: //span[contains(text(),'Online Slots')]]
+2023-01-20 20:45:54 INFO  HomePage :40 - Verify Text [[ChromeDriver: chrome on WINDOWS (80e102c6df5f5845453f5baf0b73e832)] -> xpath: //h1[contains(text(),'Play Online Slots at Virgin Games')]]

@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5078503600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should nevigate to other page when click on different Menu Tabs",
+        "description": "",
+        "id": "homepage-of-virgingames.com;user-should-nevigate-to-other-page-when-click-on-different-menu-tabs",
+        "after": [
+          {
+            "result": {
+              "duration": 1021185400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106889300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "HomepageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1090294300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page I accept cookies",
+            "match": {
+              "location": "HomepageSteps.iAmOnHomePageIAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1120521900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Online Slots tab",
+            "match": {
+              "location": "HomepageSteps.iClickOnOnlineSlotsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I nevigate to online slots page",
+            "match": {
+              "location": "HomepageSteps.iNevigateToOnlineSlotsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045964000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the text Play Online Slots at Virgin Games",
+            "match": {
+              "location": "HomepageSteps.iVerifyTheTextPlayOnlineSlotsAtVirginGames()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HomePage of virgingames.com",
+    "description": "\r\nAs a user I am on Homepage of virgingame site",
+    "id": "homepage-of-virgingames.com",
+    "keyword": "Feature",
+    "uri": "homePage.feature"
+  }
+]
